@@ -9,7 +9,7 @@
 - Queue / Deque
 - Hash Table (Set / Map)
 - Heap / Priority Queue
-- Tree (BST, Trie)
+- Tree (BST; Binary Search Tree, Trie)
 - Graph
 
 ## Algorithms
