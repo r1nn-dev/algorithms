@@ -9,7 +9,7 @@
 - Queue / Deque
 - Hash Table (Set / Map)
 - Heap / Priority Queue
-- Tree (BST; Binary Search Tree, Trie)
+- Tree (Binary Tree, BST, Trie, Segment Tree)
 - Graph
 
 ## Algorithms
@@ -20,6 +20,8 @@
 - Greedy
 - Divide & Conquer
 - Dynamic Programming (DP)
+
+## 
 - Graph Traversal (BFS / DFS)
 - Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall)
 - MST (Kruskal, Prim)
