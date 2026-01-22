@@ -20,8 +20,6 @@
 - Greedy
 - Divide & Conquer
 - Dynamic Programming (DP)
-
-## 
 - Graph Traversal (BFS / DFS)
 - Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall)
 - MST (Kruskal, Prim)
