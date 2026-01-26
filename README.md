@@ -29,12 +29,12 @@
 ### Complexity & Techniques
 - Big-O (Time Complexity / Space Complexity)
 - Common Time Complexities
-  - O(1)       : Constant
-  - O(log n)   : Logarithmic (Binary Search)
-  - O(n)       : Linear
+  - O(1) : Constant
+  - O(log n) : Logarithmic (Binary Search)
+  - O(n) : Linear
   - O(n log n) : Efficient Sorting
-  - O(n^2)     : Double Loop
-  - O(2^n)     : Subset / Brute Force
-  - O(n!)      : Permutation
+  - O(n^2) : Double Loop
+  - O(2^n) : Subset / Brute Force
+  - O(n!) : Permutation
 - Implementation Tips (I/O, overflow, edge cases)
 - Debugging checklist
