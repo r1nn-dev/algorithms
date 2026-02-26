@@ -5,29 +5,36 @@
 [[블로그 - 개념 정리]](https://r1nn-dev.tistory.com/)   
 
 ## topic
-- Part 2. Algorithm
+- Part 1. Algorithm
   - Data structure
   - Algorithm
-  - Big-O
-- Part 3. Data Structure
-  - Array, ArrayList
+  - Time / Space Complexity
+  - Big-O Notation
+- Part 2.Linear Data Structures
+  - Array
+  - ArrayList
   - Linked List
   - Queue
   - Stack
-  - Hash; Hash table, Hash set,
-- Part 4. 
-  - a
-- Part 5. Graph
+  - Hash Table
+  - Hash Set
+- Part 3. 
+  - Iteration
+- Part 4. Graph
   - Graph
-  - traversal
-  - BFS; Binary
-  - DFS; Double
-- Part 6. Grid + Graph
-  - grid
+  - Graph Traversal
+  - BFS
+  - DFS
+- Part 6. Grid + Implicit Graph
+  - 2D Grid
+  - Direction Vector
+  - Grid BFS
+  - Grid DFS
 - Part 7. Tree
   - Tree
   - BFS
-  - DFS
-  - pre in post
-- Part 8. DP
+  - DFS; pre in post
+- Part 8. 
   - Heap
+  - Dijkstra
+  - Dynamic Programming
