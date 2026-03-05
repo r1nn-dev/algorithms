@@ -18,7 +18,7 @@
   - Stack
   - Hash Table
   - Hash Set
-- Part 3 
+- Part 3. 
   - Iteration
 - Part 4. Graph
   - Graph
