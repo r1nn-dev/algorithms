@@ -34,7 +34,7 @@
   - Tree
   - BFS
   - DFS; pre in post
-- Part 8 
+- Part 8. 
   - Heap
   - Dijkstra
   - Dynamic Programming
