@@ -11,13 +11,12 @@
   - Time / Space Complexity
   - Big-O Notation
 - Part 2.Linear Data Structures
-  - Array
-  - ArrayList
+  - Exhaustive Search
+  - Array, ArrayList
   - Linked List
   - Queue
   - Stack
   - Hash Table
-  - Hash Set
 - Part 3. 
   - Iteration
 - Part 4. Graph
