@@ -21,19 +21,18 @@
   - Iteration
 - Part 4. Graph
   - Graph
-  - Graph Traversal
-  - BFS
-  - DFS; Depth First Search
+  - Graph Traversal; BFS, DFS
 - Part 6. Grid + Implicit Graph
   - 2D Grid
   - Direction Vector
-  - Grid BFS
-  - Grid DFS
+  - Grid BFS(Breadth-first search)
+  - Grid DFS(Depth-first search)
 - Part 7. Tree
   - Tree
   - BFS
   - DFS; pre in post
-- Part 8. 
+- Part 8. Dijkstra + Dynamic Programming
   - Heap
   - Dijkstra
+  - Topology Sort
   - Dynamic Programming
