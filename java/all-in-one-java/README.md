@@ -5,6 +5,8 @@
 [[블로그 - 개념 정리]](https://r1nn-dev.tistory.com/)   
 
 ## topic
+- Part 0.
+  - Java 
 - Part 1. Algorithm
   - Data structure
   - Algorithm
