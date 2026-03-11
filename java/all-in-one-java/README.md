@@ -6,20 +6,21 @@
 
 ## topic
 - Part 0.
-  - Java 
+  - Java Algorithm
+  - String class
 - Part 1. Algorithm
   - Data structure
   - Algorithm
   - Time / Space Complexity
   - Big-O Notation
-- Part 2.Linear Data Structures
+- Part 2. Exhaustive Search - Data Structures
   - Exhaustive Search
   - Array, ArrayList
   - Linked List
   - Queue
   - Stack
   - Hash Table
-- Part 3. 
+- Part 3. Exhaustive Search + 
   - Iteration
 - Part 4. Graph
   - Graph
@@ -31,8 +32,7 @@
   - Grid DFS(Depth-first search)
 - Part 7. Tree
   - Tree
-  - BFS
-  - DFS; pre in post
+  - Tree Traversal; BFS, DFS(pre in post)
 - Part 8. Dijkstra + Dynamic Programming
   - Heap
   - Dijkstra
