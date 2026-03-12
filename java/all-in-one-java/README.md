@@ -26,8 +26,6 @@
   - Graph
   - Graph Traversal; BFS, DFS
 - Part 6. Grid + Implicit Graph
-  - 2D Grid
-  - Direction Vector
   - Grid BFS(Breadth-first search)
   - Grid DFS(Depth-first search)
 - Part 7. Tree
