@@ -26,8 +26,7 @@
   - Graph
   - Graph Traversal; BFS, DFS
 - Part 6. Grid + Implicit Graph
-  - Grid BFS(Breadth-first search)
-  - Grid DFS(Depth-first search)
+  - Grid; BFS, DFS
 - Part 7. Tree
   - Tree
   - Tree Traversal; BFS, DFS(pre in post)
