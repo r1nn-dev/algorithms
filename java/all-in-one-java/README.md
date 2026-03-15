@@ -6,7 +6,7 @@
 
 ## topic
 - Part 0.
-  - Java Algorithm
+  - Java Basic
   - String class
 - Part 1. Algorithm
   - Data structure
