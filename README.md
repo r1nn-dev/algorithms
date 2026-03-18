@@ -1,4 +1,2 @@
 # algorithms
-> - Java  
-> - Python
-> - C++
+> Java / Python / C++
