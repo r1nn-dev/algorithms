@@ -25,12 +25,12 @@
 - Part 4. Graph
   - Graph
   - Graph Traversal; BFS, DFS
-- Part 6. Grid + Implicit Graph
+- Part 5. Grid + Implicit Graph
   - Grid; BFS, DFS
-- Part 7. Tree
+- Part 6. Tree
   - Tree
   - Tree Traversal; BFS, DFS(pre in post)
-- Part 8. Dijkstra + Dynamic Programming
+- Part 7. Dijkstra + Dynamic Programming
   - Heap
   - Dijkstra
   - Topology Sort
