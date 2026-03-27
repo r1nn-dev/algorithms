@@ -5,7 +5,7 @@
 [[블로그 - 개념 정리]](https://r1nn-dev.tistory.com/)   
 
 ## topic
-- Part 0.
+- Part 0. Basic
   - Java Basic
   - String Class
 - Part 1. Algorithm
