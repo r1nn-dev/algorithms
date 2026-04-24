@@ -1,3 +1,5 @@
+// 방법1: 반복문 (권장)
+
 class Solution {
     public String solution(String s) {
         // 공백 기준으로 문자열 분리
