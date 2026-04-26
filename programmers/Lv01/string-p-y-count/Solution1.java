@@ -13,7 +13,7 @@ class Solution {
             else if (c == 'y') yCount++;   // y 개수 증가
         }
 
-        // p 개수와 y 개수가 같으면 true 반환
+        // p 개수와 y 개수가 같으면 true, 다르면 false 반환 
         return pCount == yCount;
     }
 }
