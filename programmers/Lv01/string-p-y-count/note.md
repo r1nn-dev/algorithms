@@ -1,4 +1,4 @@
-# Problem: 문자열 내 p와 y의 개수
+# Problem: Count of P and Y in a String
 
 ### 문제 
 문제: 문자열 s에서 p(또는 P)와 y(또는 Y)의 개수가 같으면 true, 다르면 false를 반환하라.
