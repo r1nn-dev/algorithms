@@ -1,13 +1,13 @@
-// 방법2: 정렬
+// Solution2: 정렬 방식 
 
 import java.util.Arrays;
 
 class Solution {
     public String solution(String s) {
-		    // 공백 기준으로 문자열 분리
+		// 공백 기준으로 문자열 분리
         String[] arr = s.split(" ");
         
-        // 문자열 숫자들을 정수 배열로 변환
+        // 문자열 배열을 정수 배열로 변환
         int[] nums = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
             nums[i] = Integer.parseInt(arr[i]);
