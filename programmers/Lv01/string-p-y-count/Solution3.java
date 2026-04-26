@@ -1,3 +1,5 @@
+// Solution3: 대소문자 직접 비교 방식 
+
 class Solution {
 	boolean solution(String s) {
 		int count = 0;
