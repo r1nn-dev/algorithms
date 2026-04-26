@@ -1,3 +1,5 @@
+// Solution2: 단일 카운터 방식 
+
 class Solution {
     boolean solution(String s) {
         int count = 0;
