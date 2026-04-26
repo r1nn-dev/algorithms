@@ -1,10 +1,10 @@
-// BFS + maps 배열 재사용 (권장)
+// Solution1: BFS + maps 배열 재사용 방식 
 
 import java.util.*;
 
 class Solution {
     public int solution(int[][] maps) {
-		    // 행, 열 크기
+		// 행, 열 크기
         int n = maps.length;
         int m = maps[0].length;
         
@@ -20,12 +20,12 @@ class Solution {
         
         // BFS 시작
         while (!queue.isEmpty()) {
-		        // 현재 좌표 꺼내기
+		    // 현재 좌표 꺼내기
             int[] current = queue.poll();
             int x = current[0];
             int y = current[1];
             
-            // 4방향 탐색
+            // 상하좌우 4방향 탐색
             for (int i = 0; i < 4; i++) {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
