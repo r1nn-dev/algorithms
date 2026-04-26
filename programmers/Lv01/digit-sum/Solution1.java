@@ -1,3 +1,5 @@
+// Solution1: 문자열 변환 방식 
+
 class Solution {
     public int solution(int n) {
         int sum = 0;
