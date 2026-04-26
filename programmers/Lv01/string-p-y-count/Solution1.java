@@ -1,3 +1,5 @@
+// Solution1: for문 기본 카운팅 방식 
+
 class Solution {
     boolean solution(String s) {
         int pCount = 0;
