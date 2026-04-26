@@ -1,4 +1,4 @@
-// 방법1: 반복문 (권장)
+// Solution1: 반복문 방식 
 
 class Solution {
     public String solution(String s) {
@@ -18,7 +18,6 @@ class Solution {
             if (num < min) {
                 min = num;
             }
-            
             // 현재 숫자가 max보다 크면 최댓값 갱신
             if (num > max) {
                 max = num;
