@@ -1,4 +1,4 @@
-// BFS 원리 이해용 — visited 배열 + 객체를 사용하는 BFS
+// BFS + visited 배열 + 객체 방식 — BFS 원리 이해용
 
 import java.util.*;
 
@@ -20,15 +20,12 @@ class Location {
     Location up() {
         return new Location(x - 1, y);
     }
-
     Location down() {
         return new Location(x + 1, y);
     }
-
     Location left() {
         return new Location(x, y - 1);
     }
-
     Location right() {
         return new Location(x, y + 1);
     }
@@ -71,17 +68,17 @@ class Solution {
             int x = now.location.x;
             int y = now.location.y;
 
-            // 1. 범위를 벗어나면 무시
+            // 1. 범위를 벗어나면 건너뛴다. 
             if (x < 0 || x >= mapSizeX || y < 0 || y >= mapSizeY) {
                 continue;
             }
 
-            // 2. 벽이면 무시
+            // 2. 벽이면 건너뛴다. 
             if (maps[x][y] == 0) {
                 continue;
             }
 
-            // 3. 이미 방문한 칸이면 무시
+            // 3. 이미 방문한 칸이면 건너뛴다. 
             if (visited[x][y]) {
                 continue;
             }
