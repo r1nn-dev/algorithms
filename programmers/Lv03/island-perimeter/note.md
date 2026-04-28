@@ -88,7 +88,7 @@ grid = [[1]]
      - 다음 위치가 육지이면 아무것도 더하지 않는다.
    - 누적: 육지 칸이 물 또는 격자 바깥과 맞닿은 변의 개수만큼 perimeter에 누적한다.
    - 비교
-     - nextRow < 0, nextRow >= rows, nextCol < 0, nextCol >= cols로 격자 범위를 벗어나는지 확인한다.
+     - `nextRow < 0`, `nextRow >= rows`, `nextCol < 0`, `nextCol >= cols`로 격자 범위를 벗어나는지 확인한다.
      - 범위 안에 있다면 grid[nextRow][nextCol] == 0인지 확인한다. 
 4. 반환 형식: 계산된 섬의 둘레 길이 perimeter를 int형으로 반환한다.
 
