@@ -1,22 +1,22 @@
-#  all-in-one-java
+#  All-in-one-Java
 
 ## topic
 - Part 0. Basic
   - Java Basic
   - String Class
-- Part 1. Algorithm
-  - Data structure
+- Part 1. Data structure
+  - Data structure (Java)
+- Part 2. Algorithm
   - Algorithm
   - Time / Space Complexity
   - Big-O Notation
-- Part 2. Exhaustive Search - Data Structures
+- Part 3. Exhaustive Search 
   - Exhaustive Search
   - Array, ArrayList
   - Linked List
   - Queue
   - Stack
   - Hash Table
-- Part 3. Exhaustive Search + 
   - Iteration
 - Part 4. Graph
   - Graph
