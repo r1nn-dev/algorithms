@@ -1,7 +1,23 @@
 # Code exams
 
-
-
-Part 7. DP
-- Network Delay Time
-- Course Schedule
+- Part 0. Basic
+- Part 1. Data structure
+- Part 2. Algorithm
+  - 시간복잡도 계산
+- Part 3. Exhaustive Search 
+  - 무료 행사
+  - 올바른 소괄호쌍
+  - 올바른 괄호쌍
+  - 점진적 과부하
+  - 태어난김에 세계일주
+- Part 4. Graph
+  - 잠겨버린 사물함
+  - 홍팀청팀
+  - 잔돈 교환
+- Part 5. Grid + Implicit Graph
+  - ㅇ
+- Part 6. Tree
+  - 감염된 폴더
+- Part 7. Dijkstra + Dynamic Programming
+  - Network Delay Time
+  - Course Schedule
