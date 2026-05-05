@@ -1,4 +1,4 @@
-# Problem: 두 정수 사이의 합
+# Problem: Sum Between Two Integers
 
 ### 문제
 문제: a와 b 사이의 모든 정수를 더한 값을 반환하세요.
