@@ -32,7 +32,7 @@
 - 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12944
 - 난이도: Lv 01 
 - 주제: 배열, 기본 연산
-- 문제 핵심:
+- 문제 핵심: 합계 구하기, 길이로 나누기
 - 최초 풀이: 260509 
 - 수정 버전: 260509
 
