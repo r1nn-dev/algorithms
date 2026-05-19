@@ -1,4 +1,4 @@
-// Solution1: Solution1: PriorityQueue 방식 (권장) 
+// Solution1: PriorityQueue 방식 (권장) 
 
 import java.util.PriorityQueue;
 
