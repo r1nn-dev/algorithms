@@ -29,8 +29,8 @@
   - O(log n) : Logarithmic (Binary Search)
   - O(n) : Linear
   - O(n log n) : Efficient Sorting
-  - O(n^2) : Double Loop
-  - O(2^n) : Subset / Brute Force
+  - O(n<sup>2</sup>) : Double Loop
+  - O(2<sup>n</sup>) : Subset / Brute Force
   - O(n!) : Permutation
 - Implementation Tips (I/O, overflow, edge cases)
 - Debugging checklist
