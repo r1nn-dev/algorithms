@@ -8,7 +8,8 @@
 260428 add-missing-numbers
 260505 int-range-sum
 260512 average
-260601 middle-character
+260602 middle-character
+260609
 ```
 
 ### Lv02
@@ -19,7 +20,8 @@
 260428 printer
 260505 travel-route
 260512 correct-parentheses
-260601 more-spicy 
+260602 more-spicy
+260609
 ```
 
 ### Lv03
@@ -30,5 +32,6 @@
 260428 island-perimeter
 260505 wall-inspection
 260512 dick-controller
-260601 interger-triangle
+260602 interger-triangle
+260609
 ```
