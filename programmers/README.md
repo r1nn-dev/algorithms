@@ -9,7 +9,6 @@
 260505 int-range-sum
 260512 average
 260609 middle-character
-260616 
 ```
 
 ### Lv02
@@ -21,7 +20,7 @@
 260505 travel-route
 260512 correct-parentheses
 260609 more-spicy
-260616  
+260616 
 ```
 
 ### Lv03
