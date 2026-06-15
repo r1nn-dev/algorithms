@@ -5,7 +5,6 @@
 260407 digit-sum
 260414 string-p-y-count
 260421 max-min
-260428 add-missing-numbers
 ```
 
 ### Lv02
