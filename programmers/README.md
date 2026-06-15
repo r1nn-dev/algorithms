@@ -3,7 +3,6 @@
 ### Lv01
 ```
 260407 digit-sum
-260414 string-p-y-count
 ```
 
 ### Lv02
