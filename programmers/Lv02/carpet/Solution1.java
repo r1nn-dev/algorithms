@@ -17,6 +17,6 @@ class Solution {
             }
         }
 
-        return new int[]{};
+        return new int[]{};     // 문제 조건 - 정답은 항상 존재한다.
     }
 }
