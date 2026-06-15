@@ -6,7 +6,6 @@
 260414 string-p-y-count
 260421 max-min
 260428 add-missing-numbers
-260505 int-range-sum
 ```
 
 ### Lv02
