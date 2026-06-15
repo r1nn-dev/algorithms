@@ -7,7 +7,6 @@
 260421 max-min
 260428 add-missing-numbers
 260505 int-range-sum
-260512 average
 ```
 
 ### Lv02
