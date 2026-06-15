@@ -4,7 +4,6 @@
 ```
 260407 digit-sum
 260414 string-p-y-count
-260421 max-min
 ```
 
 ### Lv02
