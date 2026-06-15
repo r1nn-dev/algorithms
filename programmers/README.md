@@ -8,7 +8,6 @@
 260428 add-missing-numbers
 260505 int-range-sum
 260512 average
-260609 middle-character
 ```
 
 ### Lv02
