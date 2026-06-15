@@ -2,6 +2,7 @@
 
 class Solution {
     public int[] solution(int brown, int yellow) {
+        // 전체 카펫의 격자 수 = 갈색 격자 수 + 노란색 격자 수
         int total = brown + yellow;
 
         for (int h = 3; h <= Math.sqrt(total); h++) {
