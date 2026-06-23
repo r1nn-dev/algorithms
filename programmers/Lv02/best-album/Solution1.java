@@ -1,4 +1,4 @@
-// Solution1: HashMap + 정렬 방식 (권장)
+// Solution1: HashMap + 정렬 방식 
 
 import java.util.*;
 
