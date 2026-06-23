@@ -1,4 +1,4 @@
-// Solution1: 육지 칸 기준 4방향 확인 방식 (권장)
+// Solution1: 육지 칸 기준 4방향 확인 방식 
 
 class Solution {
     public int solution(int[][] grid) {
