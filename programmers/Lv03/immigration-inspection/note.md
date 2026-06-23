@@ -58,7 +58,7 @@ times = [7, 10]
 - 반환 형식: 모든 사람이 심사를 받는 데 필요한 최소 시간을 long으로 반환한다.
 
 ### 접근법
-1. Solution1: 이진탐색 기반 Parametric Search (권장)
+1. Solution1: 이진탐색 기반 Parametric Search
    - 정답이 될 수 있는 시간을 범위로 잡고, 해당 시간 안에 n명을 심사할 수 있는지 판단하면서 최소 시간을 찾는다.
 
 ### 코드 설계
@@ -83,7 +83,7 @@ times = [7, 10]
 
 ## 코드 구현
 
-### Solution1: 이진탐색 기반 Parametric Search (권장)
+### Solution1: 이진탐색 기반 Parametric Search 
 - 핵심 포인트
   - 정답이 될 수 있는 시간을 이진탐색한다.
   - 특정 시간 안에 심사 가능한 총 인원 수를 계산한다.
