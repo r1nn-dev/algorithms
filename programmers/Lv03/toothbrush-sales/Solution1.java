@@ -1,4 +1,4 @@
-// Solution1: 부모 포인터 + 반복 전파 방식 (권장)
+// Solution1: 부모 포인터 + 반복 전파 방식 
 
 import java.util.*;
 
