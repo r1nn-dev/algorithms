@@ -11,7 +11,7 @@
 260609 more-spicy
 260616 carpet
 260623 best-album
-260630 
+260630 player-ranking
 ```
 
 ### Lv03
