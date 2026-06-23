@@ -1,4 +1,4 @@
-// Solution1: 약수 쌍 완전탐색 방식 (권장)
+// Solution1: 약수 쌍 완전탐색 방식 
 
 class Solution {
     public int[] solution(int brown, int yellow) {
