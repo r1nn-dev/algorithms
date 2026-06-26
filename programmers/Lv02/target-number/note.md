@@ -1,4 +1,10 @@
-# Problem: 타겟 넘버
+# Problem: Target Number
+
+### 문제
+문제: 배열 numbers의 각 숫자 앞에 + 또는 - 부호를 붙여서 target을 만드는 경우의 수를 구하라.
+```text
+
+```
 
 링크: https://school.programmers.co.kr/learn/courses/30/lessons/43165
 
