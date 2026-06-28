@@ -30,7 +30,8 @@ tickets = [["ICN","JFK"],["HND","IAD"],["JFK","HND"]]
 출력: ["ICN", "JFK", "HND", "IAD"]
 
 예시 2:
-입력: [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
+입력:
+tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
 출력: ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO"]
 ```
 - ["ICN", "SFO", "ATL", "ICN", "ATL", "SFO"] 순으로 방문할 수도 있다.
