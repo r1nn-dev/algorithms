@@ -1,4 +1,4 @@
-// Solution1: DFS 완전 탐색 (권장)
+// Solution1: DFS 완전 탐색 
 
 class Solution {
     // count: target을 만드는 경우의 수를 저장하는 변수
