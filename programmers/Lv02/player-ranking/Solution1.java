@@ -20,7 +20,7 @@ class Solution {
             loseGraph[i] = new ArrayList<>();
         }
 
-        // 경기 결과를 그래프로 표현한다.
+        // 경기 결과를 방향 그래프로 표현한다.
         for (int[] result : results) {
             int winner = result[0];
             int loser = result[1];
@@ -37,6 +37,10 @@ class Solution {
             boolean[] visitedWin = new boolean[n + 1];
             boolean[] visitedLose = new boolean[n + 1];
 
+            // 자기 자신은 탐색 대상에서 제외하기 위해 방문 처리한다. 
+            visitedWin[player] = true; 
+            visitedLose[player] = true;
+            
             // player가 이길 수 있는 선수 수
             int winCount = dfs(player, winGraph, visitedWin);
 
