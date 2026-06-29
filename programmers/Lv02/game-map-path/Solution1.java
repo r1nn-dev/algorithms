@@ -1,4 +1,4 @@
-// Solution1: BFS + maps 배열 재사용 방식 
+// Solution1: BFS + maps 배열 거리 저장 방식 (권장)
 
 import java.util.*;
 
@@ -15,10 +15,10 @@ class Solution {
         // BFS에 사용할 큐 - 각 원소는 {x, y} 형태의 좌표
         Queue<int[]> queue = new LinkedList<>();
         
-        // 시작점 (0, 0) 삽입
+        // 시작점 (0, 0) 큐에 삽입
         queue.offer(new int[]{0, 0});
         
-        // BFS 시작
+        // BFS을 수행한다. 
         while (!queue.isEmpty()) {
 		    // 현재 좌표 꺼내기
             int[] current = queue.poll();
@@ -34,17 +34,22 @@ class Solution {
                 if (nx < 0 || ny < 0 || nx >= n || ny >= m) {
                     continue;
                 }
-                
-                // 2. 벽(0)이거나 이미 방문한 칸(1이 아닌 값)이면 건너뛴다.
+
+				// 2. 시작점은 다시 방문하지 않는다. 
+				if (nx == 0 && ny == 0) { 
+					continue; 
+				}
+				
+                // 3. 벽(0)이거나 이미 방문한 칸(1이 아닌 값)이면 건너뛴다.
                 if (maps[nx][ny] != 1) {
                     continue;
                 }
                 
-                // 3. 거리 갱신
+                // 4. 거리 갱신
                 // 처음 방문하는 칸이면 현재 칸까지의 거리 +1을 저장한다.
                 maps[nx][ny] = maps[x][y] + 1;
                 
-                // 4. 다음 탐색을 위해 큐에 삽입
+                // 5. 다음 탐색을 위해 큐에 삽입
                 queue.offer(new int[]{nx, ny});
             }
         }
