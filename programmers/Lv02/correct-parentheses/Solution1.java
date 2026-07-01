@@ -2,6 +2,10 @@
 
 class Solution {
     boolean solution(String s) {
+        if (s.length() % 2 == 1) { 
+            return false; 
+        }
+        
         // 1. 아직 닫히지 않은 '(' 개수를 저장할 변수를 만든다.
         int count = 0;
 
@@ -13,7 +17,6 @@ class Solution {
             if (ch == '(') {
                 count++;
             }
-
             // 4. 현재 문자가 ')' 이면 열린 괄호 하나를 닫는다.
             else {
                 count--;
