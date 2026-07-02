@@ -3,9 +3,6 @@
 import java.util.*;
 
 class Solution {
-    // dist 배열의 모든 순열 - 친구들의 모든 이동 순서
-    private List<int[]> permutations = new ArrayList<>();
-
     public int solution(int n, int[] weak, int[] dist) {
         int weakCount = weak.length;
         int friendCount = dist.length;
@@ -21,7 +18,8 @@ class Solution {
         }
 
         // 친구들의 모든 투입 순서 
-        makePermutations(dist, new boolean[friendCount], new int[friendCount], 0);
+        List<int[]> permutations = new ArrayList<>();
+        makePermutations(dist, new boolean[friendCount], new int[friendCount], 0, permutations);
 
         // 필요한 친구 수의 최솟값을 저장한다.
         int answer = friendCount + 1;
@@ -37,13 +35,13 @@ class Solution {
                 int usedFriend = 1;
 
                 // 현재 친구가 점검할 수 있는 마지막 위치 계산: 시작 취약 지점 + 현재 친구의 이동 가능 거리
-                int coverage = arrWeak[start] + order[usedFriend - 1];
+                int coverage = extendedWeak[start] + order[usedFriend - 1];
 
                 // start부터 weakCount개의 취약 지점을 확인한다.
                 for (int index = start; index < start + weakCount; index++) {
 
                     // 현재 취약 지점이 현재 친구의 점검 가능 범위를 벗어난 경우
-                    if (arrWeak[index] > coverage) {
+                    if (extendedWeak[index] > coverage) {
                         // 다음 친구 투입 
                         usedFriend++;
 
@@ -53,7 +51,7 @@ class Solution {
                         }
 
                         // 새로운 coverage = 현재 취약 지점 + 새 친구의 이동 가능 거리 
-                        coverage = arrWeak[index] + order[usedFriend - 1];
+                        coverage = extendedWeak[index] + order[usedFriend - 1];
                     }
                 }
 
@@ -72,7 +70,7 @@ class Solution {
         return answer;
     }
 
-    private void makePermutations(int[] dist, boolean[] visited, int[] result, int depth) {
+    private void makePermutations(int[] dist, boolean[] visited, int[] result, int depth, List<int[]> permutations) {
         // 순열의 길이가 dist 길이와 같아지면 -> 하나의 순열 완성 
         if (depth == dist.length) {
             // result 배열의 복사본 -> 재사용
@@ -92,7 +90,7 @@ class Solution {
             result[depth] = dist[i];
 
             // 재귀 호출 - 다음 위치를 채운다.
-            makePermutations(dist, visited, result, depth + 1);
+            makePermutations(dist, visited, result, depth + 1, permutations);
 
             // 다른 순열을 만들기 위해 선택을 되돌린다.
             visited[i] = false;
