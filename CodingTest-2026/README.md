@@ -7,5 +7,5 @@
 - 260527: nearest-point-query, missile-booster-system, dice-grid-travel 
 - 260626: racing-track, parentheses-split, bonfire-graph, 
 - 260729: cheerleader-energy, bank-account-transactions, cyclic-gun-damage, maximum-range-sum
-- 260811: 
+- 260811: rational-consumption, 
 ```
