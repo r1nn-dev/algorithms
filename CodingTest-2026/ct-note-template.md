@@ -31,10 +31,24 @@
    - 비교
 4. 반환 형식
 
-### 코드 구현
-- 핵심 포인트
-- 시간복잡도:
+### Java
+- 구현 파일: `Solution1.java`
+- 핵심 문법:
+  - 예: `BufferedReader`
+  - 예: `StringTokenizer`
+  - 예: `Math.min()`, `Math.max()`
+
+### Python
+- 구현 파일: `Solution1.py`
+- 핵심 문법:
+  - 예: `input()`
+  - 예: `map()`
+  - 예: `min()`, `max()`
+
+### 복잡도
+- 시간복잡도: 
 - 공간복잡도: 
+
 
 ## Solution2: 방식
 ### 코드 설계
@@ -46,8 +60,21 @@
    - 비교
 4. 반환 형식
 
-### 코드 구현
-- 핵심 포인트
+### Java
+- 구현 파일: `Solution1.java`
+- 핵심 문법:
+  - 예: `BufferedReader`
+  - 예: `StringTokenizer`
+  - 예: `Math.min()`, `Math.max()`
+
+### Python
+- 구현 파일: `Solution1.py`
+- 핵심 문법:
+  - 예: `input()`
+  - 예: `map()`
+  - 예: `min()`, `max()`
+
+### 복잡도
 - 시간복잡도: 
-- 공간복잡도:
+- 공간복잡도: 
 
