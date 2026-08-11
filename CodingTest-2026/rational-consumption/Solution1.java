@@ -25,24 +25,22 @@ class Main {
             String name = st.nextToken();
             int price = Integer.parseInt(st.nextToken());
 
-            // 현재 물품이 지금까지의 최저가보다 저렴하면
-            // 가격과 물품명을 함께 갱신한다.
+            // 최저가 물품 갱신
             if (price < minPrice) {
                 minPrice = price;
                 minName = name;
             }
 
-            // 현재 물품이 지금까지의 최고가보다 비싸면
-            // 가격과 물품명을 함께 갱신한다.
+            // 최고가 물품 갱신
             if (price > maxPrice) {
                 maxPrice = price;
                 maxName = name;
             }
         }
 
-        // 가장 비싼 물품을 먼저 출력하고,
-        // 다음 줄에 가장 저렴한 물품을 출력한다.
-        System.out.println(maxName);
-        System.out.println(minName);
+        // 가장 비싼 물품과 가격 출력
+		System.out.println(maxName + " " + maxPrice);
+        // 가장 저렴한 물품과 가격 출력
+		System.out.println(minName + " " + minPrice);
     }
 }
