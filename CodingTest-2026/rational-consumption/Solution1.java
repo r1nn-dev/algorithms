@@ -1,4 +1,4 @@
-// Solution1.java: 선형 탐색
+// Solution1.java: 선형 탐색 
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -38,9 +38,9 @@ class Main {
             }
         }
 
-        // 가장 비싼 물품과 가격 출력
+        // 최고가 물품과 가격 출력
 		System.out.println(maxName + " " + maxPrice);
-        // 가장 저렴한 물품과 가격 출력
+        // 최저가 물품과 가격 출력
 		System.out.println(minName + " " + minPrice);
     }
 }
