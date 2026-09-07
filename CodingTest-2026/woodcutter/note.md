@@ -33,20 +33,27 @@
 ### Java
 - 구현 파일: `Solution1.java`
 - 핵심 문법:
-  - 예: `BufferedReader`
-  - 예: `StringTokenizer`
-  - 예: `Math.min()`, `Math.max()`
+  - `BufferedReader`: 입력을 한 줄씩 읽는다.
+  - `StringTokenizer`: 한 줄의 입력을 공백 기준으로 분리한다.
+  - `Integer.parseInt()`, `Long.parseLong()`: 문자열 형태의 입력값을 정수형으로 변환한다.
+  - `long[]`: 나무의 높이 보정값을 저장한다.
+  - `charAt(0)`: `L`, `R`, `S` 이동 명령을 문자로 가져온다.
+  - `(x - 1 + N) % N`, `(x + 1) % N`: 원형 배열의 좌우 이동을 처리한다.
+  - `System.out.println()`: 최종 누적 목재량을 출력한다.
 
 ### Python
 - 구현 파일: `Solution1.py`
 - 핵심 문법:
-  - 예: `input()`
-  - 예: `map()`
-  - 예: `min()`, `max()`
+  - `input()`: 입력을 한 줄씩 읽는다.
+  - `map(int, input().split())`: 공백으로 구분된 정수 입력을 변환한다.
+  - `list(map(...))`: 나무의 초기 높이를 리스트로 저장한다.
+  - `for direction in directions`: 이동 명령을 순서대로 처리한다.
+  - `(x - 1) % N`, `(x + 1) % N`: 원형 배열의 좌우 이동을 처리한다.
+  - `print()`: 최종 누적 목재량을 출력한다.
 
 ### 복잡도
-- 시간복잡도: O(N + Q)
-  - N개의 초기 나무 높이를 저장하는 데 O(N)
-  - Q개의 명령을 각각 O(1)에 처리하므로 O(Q)
-- 공간복잡도: O(N)
-  - N개의 나무 상태를 저장하는 배열이 필요하다.
+- 시간복잡도: `O(N + Q)`
+  - O(N): N개의 초기 나무 높이 저장
+  - O(Q): Q개의 명령을 각각 O(1)에 처리
+- 공간복잡도: `O(N)`
+  - N개의 나무 상태를 저장하는 배열
