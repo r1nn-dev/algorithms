@@ -1,3 +1,5 @@
+// Solution1: 전역 성장량을 이용한 Lazy Update
+
 import java.io.*;
 import java.util.*;
 
