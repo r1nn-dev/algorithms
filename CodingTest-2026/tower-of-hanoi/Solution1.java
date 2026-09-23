@@ -1,3 +1,5 @@
+// Solution1: 원반별 이동 횟수 직접 계산하는 방식
+
 import java.io.*;
 
 class Main {
