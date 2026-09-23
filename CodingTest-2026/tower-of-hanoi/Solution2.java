@@ -1,3 +1,5 @@
+// Solution2: 이동 번호 기반 시뮬레이션 방식
+
 import java.io.*;
 
 class Main {
