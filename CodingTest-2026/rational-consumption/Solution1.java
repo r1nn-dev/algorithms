@@ -1,4 +1,4 @@
-// Solution1.java: 선형 탐색 
+// Solution1: 선형 탐색 방식
 
 import java.io.*;
 import java.util.StringTokenizer;
